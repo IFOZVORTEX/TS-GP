@@ -4,7 +4,7 @@ CLI de gestion de tâches en TypeScript avec validation, décorateurs et tests.
 
 ## Installation
 ```bash
-npm install -g @TS-GP
+npm install -g @ts-gp
 ```
 
 ## Utilisation

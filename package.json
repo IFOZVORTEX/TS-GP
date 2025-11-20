@@ -1,5 +1,5 @@
 {
-  "name": "TS-GP",
+  "name": "ts-gp",
   "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
