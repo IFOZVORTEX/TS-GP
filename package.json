@@ -1,0 +1,39 @@
+{
+  "name": "TS-GP",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "taskscript": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "cli",
+    "tasks",
+    "typescript",
+    "todo"
+  ],
+  "author": "Gabriel Pied",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IFOZVORTEX/TS-GP.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^latest"
+  },
+  "dependencies": {
+    "tsx": "^4.20.6"
+  }
+}
